@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Permanent Marker", cursive;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+   
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.pexels.com/photos/70365/forest-sunbeams-trees-sunlight-70365.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    flex-direction: column;
+
+  
+}
+
+.date, .time {
+    color: #fff;
+    font-size: 4rem;
+}
+
+
+.today {
+    color: #fff;
+    font-size: 8rem;
+}
+
